@@ -11,7 +11,7 @@ class CalculatorPlus:
         return a * b
 
     def divide(self, a, b):
-<<<<<<< HEAD
+
         if b == 0:
             raise ValueError("Cannot divide by zero.")
         return a / b
@@ -21,8 +21,9 @@ class CalculatorPlus:
         if a < 0:
             raise ValueError("Cannot calculate square root of a negative number.")
         return math.sqrt(a)
-=======
+
         if b == 0:  
             raise ValueError("Cannot divide by zero.")  
     	    return a / b
->>>>>>> dev
+
+
